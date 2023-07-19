@@ -1,4 +1,4 @@
-import css from "./style.css";
+
 
 export const Ship = (length, hitNumber = 0) => {
   const hit = () => hitNumber += 1;
