@@ -1,12 +1,12 @@
 
 
-export const Ship = (length, hitNumber = 0) => {
+const Ship = (length, hitNumber = 0) => {
   const hit = () => hitNumber += 1;
   const isSunk = () => length - hitNumber === 0;
   return {hit, isSunk}
 }
 
-export const Gameboard = (name) => {
+const Gameboard = (name) => {
 
     const player = name;
     const board = [];
